@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=League+Gothic&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+:root{
+   --color:#4fa7c9 ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header{
+
+}
+img{
+    max-width: 100%;
+}
+
+.container {
+    /* background: crimson; */
+    WIDTH: 1100px;
+    margin: auto;
+    padding: 10px;
+}
+
+.align-item{
+     align-items: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    max-width: 15%;
+    flex-basis: 15%;
+    /* background: aliceblue; */
+}
+.logo h1{
+     font-size: 36px;
+     color: #333;
+     font-weight: 800;
+     padding: 10px;
+     text-transform: uppercase;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #333;
+}
+nav {
+    max-width: 65%;
+    flex-basis: 65%;
+}
+nav ul {
+    list-style: none;
+}
+
+.menu li a:hover{
+    background: var(--color);
+    border-radius: 7px;
+    color: #fff;
+    padding: 10px;
+}
+
+
+ .menu {
+    display: flex;
+    flex-wrap: wrap;
+    /* background: coral; */
+    padding: 20px;
+    align-items: center;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+
+    .menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+
+.button{
+  max-width: 20%;
+  flex-basis: 20%;
+  tygt;
+  background: var(--color);
+  padding: 17px;
+  border-radius: 7px;
+  text-align: center;
+  }
+
+.button a{
+    
+text-decoration: none;
+    
+color: #fffdfd;
+    
+font-size: 18px;
+    
+font-weight: 700;
+    
+text-transform: capitalize;
+    
+/* text-align: center; */
+  }
+
+
+  /*feature-section*/
+
+.bio-section {
+    padding: 50px 0;
+    margin-top: 52px;
+}
+
+  
+.bio {
+    max-width: 50%;
+    flex-basis: 50%;
+    /* padding: 26px; */
+    padding: 0 20px 0 0;
+}
+ .bio h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+  .bio p {
+    font-size: 18px;
+    padding: 29px 0;
+    color: #7f8183;
+}
+
+  .photo{
+    max-width: 50%;
+    flex-basis: 50%;
+    /* padding: 0 17px; */
+  }
+
+
+    .photo img {
+    width: 538px;
+    /* padding: 0 0 0 39px; */
+    box-shadow: 1px 5px 9px 0px #7c7a99cc;
+    border-radius: 7px;
+}
+
+
+.demo-section{
+    padding: 50px 0;
+    margin-top: 52px;
+}
+
+.heading {
+    /* margin: 0  0 50px; */
+    text-align: center;
+    padding: 30px;
+}
+.heading h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.heading p {
+    font-size: 20px;
+    padding: 15px;
+    color: #7f8183;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.gallery-section{
+    justify-content: center;
+}
+
+.demo {
+    flex-basis: 24%;
+    padding: 14px;
+   
+}
+
+.demo h3 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    color: #3e3f40;
+}
+.demo img {
+    border: 1px solid #f3ededdb;
+    border-radius: 11px;
+}
+
+
+.feature-section{
+    margin-top: 100px;
+}
+
+
+.block{
+
+}
+
+.box {
+    padding: 10px 17px;
+    text-align: center;
+    /* background: aliceblue; */
+    border-radius: 8px;
+    flex-basis: 33.33%;
+}
+.box img {
+    width: 50px;
+    border: 2px solid #c18fa9;
+    border-radius: 0 0 0 0 red;
+    border-radius: 52px;
+    box-shadow: -1px 1px 14px 4px #7c7a99cc;
+}
+
+.box h3{
+
+text-transform: capitalize;
+
+font-weight: 800;
+
+padding-top: 10px;
+}
+
+.box p{
+    
+font-size: 20px;
+    
+padding: 15px;
+    
+color: #7f8183;
+    
+font-weight: 500;
+}
+
+.root {
+    padding: 10px;
+    background: #f7f4f1;
+    border-radius: 6px;
+    box-shadow: 1px 5px 9px 0px #7c7a99cc;
+}
+
+
+
+footer {
+    background: #58184a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+footer h1 {
+    font-size: 107px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.purchase-button {
+    background: var(--color);
+    padding: 17px;
+    border-radius: 7px;
+    text-align: center;
+    /* margin: auto; */
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.purchase-button a{
+    text-decoration: none;
+    color: #fffdfd;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    /* text-align: center; */
+}
+
+}
+
+
+
